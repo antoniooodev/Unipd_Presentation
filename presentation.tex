@@ -1,0 +1,115 @@
+%LTeX: language=it
+\documentclass[a4paper]{beamer}
+\usepackage{subfig}
+\usepackage{graphicx} 
+\usepackage{caption}
+\usepackage{beamerthemePadovaDEI}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{multirow}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools}
+\usepackage{lmodern}
+\usepackage{textcomp}
+
+\captionsetup[figure]{labelformat=empty}
+
+\newcommand{\dert}{
+    \frac{\partial }{\partial t} 
+}
+\newcommand{\derp}[1]{
+    \frac{\partial }{\partial #1} 
+}
+\newcommand{\der}{
+    \frac{d }{d t} 
+}
+
+\newcommand{\tonde}[1]{
+    \left(#1\right)
+}
+
+\newcommand{\quadre}[1]{
+    \left[#1\right]
+}
+
+\newcommand{\graffe}[1]{
+    \left\{#1\right\}
+}
+
+\newcommand{\abs}[1]{
+    \left|#1\right|
+}
+
+\newcommand{\immagine}[4]{
+    \begin{figure}[H]
+        \centering
+          \includegraphics[width=#2\textwidth]{images/#1.png}
+          \caption{#3}
+          \label{#4}
+    \end{figure}
+}
+
+\title[]{Thesis Title}
+\subtitle[]{\vspace{0.25cm} Undergraduate student }
+\author[]{Supervisor Name}
+\date{Date}
+
+\begin{document}
+
+% Titolo
+\begin{frame}
+    \maketitle
+\end{frame}
+
+\begin{frame}
+    \frametitle{Page Title}
+    \begin{enumerate}
+        \item Item Title:
+        \begin{itemize}
+            \item Lorem Ipsum:
+                \begin{itemize}
+                    \item Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                    \item Ut ac dui quis velit congue bibendum et vel lorem.
+                \end{itemize}
+        \end{itemize}
+        \item Item Title:
+        \begin{itemize}
+            \item Pellentesque: server fusce ultricies mauris, sed dapibus odio fermentum nec.
+            \item Phasellus: tristique elit id purus rhoncus, eget vulputate arcu fermentum.
+        \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Page Title}
+    Lorem Ipsum
+    \begin{itemize}
+        \item Item Title
+            \begin{itemize}
+                \item Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+            \end{itemize}
+        \item Item Title
+            \begin{itemize}
+                \item Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                \item Ut ac dui quis velit congue bibendum et vel lorem.
+            \end{itemize}
+    \end{itemize}
+    \begin{minipage}[b]{.45\linewidth}
+        \centering
+        \includegraphics[width=0.89\textwidth]{images/snapcast_client.png}
+    \end{minipage}
+    \begin{minipage}[b]{.45\linewidth}
+        \centering
+        \includegraphics[width=0.89\textwidth]{images/user_interface.png}
+    \end{minipage}
+\end{frame}
+
+
+\begin{frame}
+    \maketitle
+\end{frame}
+
+\end{document}
