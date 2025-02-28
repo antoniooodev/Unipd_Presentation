@@ -55,10 +55,10 @@ Il file `beamerthemePadovaDEI.sty` contiene le personalizzazioni per il tema del
 ## Esempi di Slide
 Di seguito sono riportati alcuni esempi di slide generate con questo template:
 
-![Esempio Slide 1](./immagini/slide1.png)
+![Esempio Slide 1](./images/slide1.png)
 *Figura 1: Esempio di slide introduttiva.*
 
-![Esempio Slide 2](./immagini/slide2.png)
+![Esempio Slide 2](./images/slide2.png)
 *Figura 2: Esempio di slide con contenuto.*
 
 ## Contributi
